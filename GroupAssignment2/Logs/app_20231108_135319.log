@@ -1,0 +1,47 @@
+2023-11-08 13:53:21.373 +01:00 [Information] User profile is available. Using '"C:\Users\Leon Li\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-08 13:53:22.223 +01:00 [Information] Now listening on: "https://localhost:7242"
+2023-11-08 13:53:22.223 +01:00 [Information] Now listening on: "http://localhost:5249"
+2023-11-08 13:53:22.227 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-11-08 13:53:22.228 +01:00 [Information] Hosting environment: "Development"
+2023-11-08 13:53:22.228 +01:00 [Information] Content root path: "C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\"
+2023-11-08 13:53:22.734 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/ - -
+2023-11-08 13:53:22.782 +01:00 [Information] Executing endpoint '"GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)"'
+2023-11-08 13:53:22.794 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "GroupAssignment2.Controllers.HomeController" ("GroupAssignment2").
+2023-11-08 13:53:22.885 +01:00 [Information] Executing action method "GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)" - Validation state: Valid
+2023-11-08 13:53:22.926 +01:00 [Information] Executed action method "GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 36.9219ms.
+2023-11-08 13:53:22.932 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-11-08 13:53:23.092 +01:00 [Information] Executed ViewResult - view "Index" executed in 160.5864ms.
+2023-11-08 13:53:23.092 +01:00 [Information] Executed action "GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)" in 298.3865ms
+2023-11-08 13:53:23.092 +01:00 [Information] Executed endpoint '"GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)"'
+2023-11-08 13:53:23.103 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/images/layout/burgerIcon.png - -
+2023-11-08 13:53:23.103 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - -
+2023-11-08 13:53:23.103 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/css/_Layout.css - -
+2023-11-08 13:53:23.103 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-11-08 13:53:23.103 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery/jquery.js - -
+2023-11-08 13:53:23.103 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/bootstrap/js/bootstrap.js - -
+2023-11-08 13:53:23.103 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/css/index.css - -
+2023-11-08 13:53:23.106 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/ - - - 200 - text/html;+charset=utf-8 374.1326ms
+2023-11-08 13:53:23.106 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - - - 404 0 - 3.6464ms
+2023-11-08 13:53:23.123 +01:00 [Information] Sending file. Request path: '"/css/index.css"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\css\index.css"'
+2023-11-08 13:53:23.123 +01:00 [Information] Sending file. Request path: '"/css/_Layout.css"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\css\_Layout.css"'
+2023-11-08 13:53:23.123 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/css/_Layout.css - - - 200 410 text/css 20.7705ms
+2023-11-08 13:53:23.123 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/css/index.css - - - 200 803 text/css 20.4781ms
+2023-11-08 13:53:23.130 +01:00 [Information] Sending file. Request path: '"/images/layout/burgerIcon.png"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\images\layout\burgerIcon.png"'
+2023-11-08 13:53:23.130 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/css/_Button.css - -
+2023-11-08 13:53:23.140 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/images/layout/burgerIcon.png - - - 200 1664 image/png 37.4108ms
+2023-11-08 13:53:23.146 +01:00 [Information] Sending file. Request path: '"/css/_Button.css"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\css\_Button.css"'
+2023-11-08 13:53:23.146 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/css/_Button.css - - - 200 2319 text/css 16.2188ms
+2023-11-08 13:53:23.161 +01:00 [Information] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"'
+2023-11-08 13:53:23.161 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19820 application/javascript 58.8145ms
+2023-11-08 13:53:23.162 +01:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\lib\bootstrap\js\bootstrap.js"'
+2023-11-08 13:53:23.162 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/bootstrap/js/bootstrap.js - - - 200 145313 application/javascript 59.4047ms
+2023-11-08 13:53:23.190 +01:00 [Information] Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\lib\jquery\jquery.js"'
+2023-11-08 13:53:23.190 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery/jquery.js - - - 200 285314 application/javascript 87.4997ms
+2023-11-08 13:53:23.202 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/images/home/jumbotron.jpg - -
+2023-11-08 13:53:23.202 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-11-08 13:53:23.202 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - -
+2023-11-08 13:53:23.203 +01:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\js\site.js"'
+2023-11-08 13:53:23.204 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 1.9619ms
+2023-11-08 13:53:23.206 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 4.0012ms
+2023-11-08 13:53:23.215 +01:00 [Information] Sending file. Request path: '"/images/home/jumbotron.jpg"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\images\home\jumbotron.jpg"'
+2023-11-08 13:53:23.215 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/images/home/jumbotron.jpg - - - 200 282612 image/jpeg 13.5272ms
