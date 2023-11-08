@@ -1,0 +1,225 @@
+2023-10-31 11:04:14.178 +01:00 [Information] User profile is available. Using '"C:\Users\Leon Li\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 11:04:15.037 +01:00 [Information] Now listening on: "https://localhost:7242"
+2023-10-31 11:04:15.037 +01:00 [Information] Now listening on: "http://localhost:5249"
+2023-10-31 11:04:15.041 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-31 11:04:15.041 +01:00 [Information] Hosting environment: "Development"
+2023-10-31 11:04:15.041 +01:00 [Information] Content root path: "C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\"
+2023-10-31 11:04:15.693 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/ - -
+2023-10-31 11:04:15.768 +01:00 [Information] Executing endpoint '"GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)"'
+2023-10-31 11:04:15.780 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "GroupAssignment2.Controllers.HomeController" ("GroupAssignment2").
+2023-10-31 11:04:15.877 +01:00 [Information] Executing action method "GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)" - Validation state: Valid
+2023-10-31 11:04:15.919 +01:00 [Information] Executed action method "GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 38.8033ms.
+2023-10-31 11:04:15.925 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-31 11:04:16.082 +01:00 [Information] Executed ViewResult - view "Index" executed in 157.4792ms.
+2023-10-31 11:04:16.087 +01:00 [Information] Executed action "GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)" in 306.9444ms
+2023-10-31 11:04:16.088 +01:00 [Information] Executed endpoint '"GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)"'
+2023-10-31 11:04:16.107 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - -
+2023-10-31 11:04:16.107 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/images/layout/burgerIcon.png - -
+2023-10-31 11:04:16.107 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-10-31 11:04:16.107 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/bootstrap/js/bootstrap.js - -
+2023-10-31 11:04:16.107 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/css/_Layout.css - -
+2023-10-31 11:04:16.107 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery/jquery.js - -
+2023-10-31 11:04:16.108 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/css/index.css - -
+2023-10-31 11:04:16.148 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - - - 404 0 - 40.0179ms
+2023-10-31 11:04:16.174 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/ - - - 200 - text/html;+charset=utf-8 482.0156ms
+2023-10-31 11:04:16.181 +01:00 [Information] Sending file. Request path: '"/images/layout/burgerIcon.png"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\images\layout\burgerIcon.png"'
+2023-10-31 11:04:16.181 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/images/layout/burgerIcon.png - - - 200 1664 image/png 73.6217ms
+2023-10-31 11:04:16.198 +01:00 [Information] Sending file. Request path: '"/css/index.css"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\css\index.css"'
+2023-10-31 11:04:16.198 +01:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\lib\bootstrap\js\bootstrap.js"'
+2023-10-31 11:04:16.198 +01:00 [Information] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"'
+2023-10-31 11:04:16.198 +01:00 [Information] Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\lib\jquery\jquery.js"'
+2023-10-31 11:04:16.198 +01:00 [Information] Sending file. Request path: '"/css/_Layout.css"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\css\_Layout.css"'
+2023-10-31 11:04:16.198 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/css/index.css - - - 200 803 text/css 90.4590ms
+2023-10-31 11:04:16.198 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/bootstrap/js/bootstrap.js - - - 200 145313 application/javascript 90.8403ms
+2023-10-31 11:04:16.198 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19820 application/javascript 90.8737ms
+2023-10-31 11:04:16.198 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery/jquery.js - - - 200 285314 application/javascript 90.9113ms
+2023-10-31 11:04:16.198 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/css/_Layout.css - - - 200 410 text/css 90.9543ms
+2023-10-31 11:04:16.199 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/css/_Button.css - -
+2023-10-31 11:04:16.202 +01:00 [Information] Sending file. Request path: '"/css/_Button.css"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\css\_Button.css"'
+2023-10-31 11:04:16.202 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/css/_Button.css - - - 200 2319 text/css 3.5943ms
+2023-10-31 11:04:16.210 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 11:04:16.210 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_vs/browserLink - -
+2023-10-31 11:04:16.210 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-10-31 11:04:16.212 +01:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\js\site.js"'
+2023-10-31 11:04:16.212 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 2.2330ms
+2023-10-31 11:04:16.214 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 4.1255ms
+2023-10-31 11:04:16.227 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/images/home/jumbotron.jpg - -
+2023-10-31 11:04:16.236 +01:00 [Information] Sending file. Request path: '"/images/home/jumbotron.jpg"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\images\home\jumbotron.jpg"'
+2023-10-31 11:04:16.236 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/images/home/jumbotron.jpg - - - 200 282612 image/jpeg 9.2632ms
+2023-10-31 11:04:16.236 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.5553ms
+2023-10-31 11:04:21.889 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/Housing/Table - -
+2023-10-31 11:04:21.899 +01:00 [Information] Executing endpoint '"GroupAssignment2.Controllers.HousingController.Table (GroupAssignment2)"'
+2023-10-31 11:04:21.901 +01:00 [Information] Route matched with "{action = \"Table\", controller = \"Housing\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table()" on controller "GroupAssignment2.Controllers.HousingController" ("GroupAssignment2").
+2023-10-31 11:04:21.922 +01:00 [Information] Executing action method "GroupAssignment2.Controllers.HousingController.Table (GroupAssignment2)" - Validation state: Valid
+2023-10-31 11:04:21.923 +01:00 [Information] Executed action method "GroupAssignment2.Controllers.HousingController.Table (GroupAssignment2)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.2181ms.
+2023-10-31 11:04:21.924 +01:00 [Information] Executing ViewResult, running view "Table".
+2023-10-31 11:04:21.936 +01:00 [Information] Executed ViewResult - view "Table" executed in 13.0915ms.
+2023-10-31 11:04:21.936 +01:00 [Information] Executed action "GroupAssignment2.Controllers.HousingController.Table (GroupAssignment2)" in 35.3904ms
+2023-10-31 11:04:21.937 +01:00 [Information] Executed endpoint '"GroupAssignment2.Controllers.HousingController.Table (GroupAssignment2)"'
+2023-10-31 11:04:21.941 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/Housing/Table - - - 200 - text/html;+charset=utf-8 52.5672ms
+2023-10-31 11:04:21.945 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - -
+2023-10-31 11:04:21.946 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/css/table.css - -
+2023-10-31 11:04:21.946 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/images/housing/Grid_Table.jpg - -
+2023-10-31 11:04:21.947 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - - - 404 0 - 1.9963ms
+2023-10-31 11:04:21.948 +01:00 [Information] Sending file. Request path: '"/css/table.css"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\css\table.css"'
+2023-10-31 11:04:21.948 +01:00 [Information] Sending file. Request path: '"/images/housing/Grid_Table.jpg"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\images\housing\Grid_Table.jpg"'
+2023-10-31 11:04:21.949 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/css/table.css - - - 200 830 text/css 3.3618ms
+2023-10-31 11:04:21.949 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/images/housing/Grid_Table.jpg - - - 200 11704 image/jpeg 3.4811ms
+2023-10-31 11:04:21.952 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 11:04:21.952 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.3838ms
+2023-10-31 11:04:21.953 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_vs/browserLink - -
+2023-10-31 11:04:21.963 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.5989ms
+2023-10-31 11:04:22.763 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/Housing/Details/3 - -
+2023-10-31 11:04:22.765 +01:00 [Information] Executing endpoint '"GroupAssignment2.Controllers.HousingController.Details (GroupAssignment2)"'
+2023-10-31 11:04:22.773 +01:00 [Information] Route matched with "{action = \"Details\", controller = \"Housing\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int32)" on controller "GroupAssignment2.Controllers.HousingController" ("GroupAssignment2").
+2023-10-31 11:04:22.796 +01:00 [Information] Executing action method "GroupAssignment2.Controllers.HousingController.Details (GroupAssignment2)" - Validation state: Valid
+2023-10-31 11:04:22.811 +01:00 [Information] Executed action method "GroupAssignment2.Controllers.HousingController.Details (GroupAssignment2)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 15.2851ms.
+2023-10-31 11:04:22.812 +01:00 [Information] Executing ViewResult, running view "Details".
+2023-10-31 11:04:22.821 +01:00 [Information] Executed ViewResult - view "Details" executed in 9.2508ms.
+2023-10-31 11:04:22.821 +01:00 [Information] Executed action "GroupAssignment2.Controllers.HousingController.Details (GroupAssignment2)" in 47.7844ms
+2023-10-31 11:04:22.821 +01:00 [Information] Executed endpoint '"GroupAssignment2.Controllers.HousingController.Details (GroupAssignment2)"'
+2023-10-31 11:04:22.822 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/Housing/Details/3 - - - 200 - text/html;+charset=utf-8 59.8943ms
+2023-10-31 11:04:22.827 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - -
+2023-10-31 11:04:22.827 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - - - 404 0 - 0.7802ms
+2023-10-31 11:04:22.828 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_vs/browserLink - -
+2023-10-31 11:04:22.829 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 11:04:22.829 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.3440ms
+2023-10-31 11:04:22.832 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.4996ms
+2023-10-31 11:04:23.542 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/Order/CreateOrder/3 - -
+2023-10-31 11:04:23.544 +01:00 [Information] Executing endpoint '"GroupAssignment2.Controllers.OrderController.CreateOrder (GroupAssignment2)"'
+2023-10-31 11:04:23.546 +01:00 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Int32)" on controller "GroupAssignment2.Controllers.OrderController" ("GroupAssignment2").
+2023-10-31 11:04:23.561 +01:00 [Information] Executing action method "GroupAssignment2.Controllers.OrderController.CreateOrder (GroupAssignment2)" - Validation state: Valid
+2023-10-31 11:04:23.563 +01:00 [Information] Executed action method "GroupAssignment2.Controllers.OrderController.CreateOrder (GroupAssignment2)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.9125ms.
+2023-10-31 11:04:23.564 +01:00 [Information] Executing ViewResult, running view "CreateOrder".
+2023-10-31 11:04:23.599 +01:00 [Information] Executed ViewResult - view "CreateOrder" executed in 35.4521ms.
+2023-10-31 11:04:23.599 +01:00 [Information] Executed action "GroupAssignment2.Controllers.OrderController.CreateOrder (GroupAssignment2)" in 53.5006ms
+2023-10-31 11:04:23.599 +01:00 [Information] Executed endpoint '"GroupAssignment2.Controllers.OrderController.CreateOrder (GroupAssignment2)"'
+2023-10-31 11:04:23.601 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/Order/CreateOrder/3 - - - 200 - text/html;+charset=utf-8 59.0801ms
+2023-10-31 11:04:23.604 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_vs/browserLink - -
+2023-10-31 11:04:23.604 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - -
+2023-10-31 11:04:23.604 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 11:04:23.605 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.4991ms
+2023-10-31 11:04:23.605 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - - - 404 0 - 1.0616ms
+2023-10-31 11:04:23.614 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.1644ms
+2023-10-31 11:04:24.665 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7242/Order/CreateOrder/3 application/x-www-form-urlencoded 277
+2023-10-31 11:04:24.667 +01:00 [Information] Executing endpoint '"GroupAssignment2.Controllers.OrderController.CreateOrder (GroupAssignment2)"'
+2023-10-31 11:04:24.671 +01:00 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(GroupAssignment2.Models.Order)" on controller "GroupAssignment2.Controllers.OrderController" ("GroupAssignment2").
+2023-10-31 11:04:24.713 +01:00 [Information] Executing action method "GroupAssignment2.Controllers.OrderController.CreateOrder (GroupAssignment2)" - Validation state: Valid
+2023-10-31 11:04:24.882 +01:00 [Information] Executed action method "GroupAssignment2.Controllers.OrderController.CreateOrder (GroupAssignment2)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 168.9667ms.
+2023-10-31 11:04:24.883 +01:00 [Information] Executing RedirectResult, redirecting to "/Transaction/ConfirmOrder?OrderId=4&StartDate=11%2F01%2F2023%2000%3A00%3A00&EndDate=11%2F19%2F2023%2000%3A00%3A00&TotalPrice=25560&CustomerId=aec18610-0516-4db8-9714-bca3d3d46612&HousingId=3".
+2023-10-31 11:04:24.883 +01:00 [Information] Executed action "GroupAssignment2.Controllers.OrderController.CreateOrder (GroupAssignment2)" in 211.5924ms
+2023-10-31 11:04:24.883 +01:00 [Information] Executed endpoint '"GroupAssignment2.Controllers.OrderController.CreateOrder (GroupAssignment2)"'
+2023-10-31 11:04:24.883 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7242/Order/CreateOrder/3 application/x-www-form-urlencoded 277 - 302 0 - 218.2960ms
+2023-10-31 11:04:24.886 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/Transaction/ConfirmOrder?OrderId=4&StartDate=11%2F01%2F2023%2000%3A00%3A00&EndDate=11%2F19%2F2023%2000%3A00%3A00&TotalPrice=25560&CustomerId=aec18610-0516-4db8-9714-bca3d3d46612&HousingId=3 - -
+2023-10-31 11:04:24.887 +01:00 [Information] Executing endpoint '"GroupAssignment2.Controllers.TransactionController.ConfirmOrder (GroupAssignment2)"'
+2023-10-31 11:04:24.889 +01:00 [Information] Route matched with "{action = \"ConfirmOrder\", controller = \"Transaction\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConfirmOrder(GroupAssignment2.Models.Order)" on controller "GroupAssignment2.Controllers.TransactionController" ("GroupAssignment2").
+2023-10-31 11:04:24.909 +01:00 [Information] Executing action method "GroupAssignment2.Controllers.TransactionController.ConfirmOrder (GroupAssignment2)" - Validation state: Valid
+2023-10-31 11:04:24.911 +01:00 [Information] Executed action method "GroupAssignment2.Controllers.TransactionController.ConfirmOrder (GroupAssignment2)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.3ms.
+2023-10-31 11:04:24.911 +01:00 [Information] Executing ViewResult, running view "ConfirmOrder".
+2023-10-31 11:04:24.936 +01:00 [Information] Executed ViewResult - view "ConfirmOrder" executed in 24.9466ms.
+2023-10-31 11:04:24.936 +01:00 [Information] Executed action "GroupAssignment2.Controllers.TransactionController.ConfirmOrder (GroupAssignment2)" in 47.2517ms
+2023-10-31 11:04:24.936 +01:00 [Information] Executed endpoint '"GroupAssignment2.Controllers.TransactionController.ConfirmOrder (GroupAssignment2)"'
+2023-10-31 11:04:24.938 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/Transaction/ConfirmOrder?OrderId=4&StartDate=11%2F01%2F2023%2000%3A00%3A00&EndDate=11%2F19%2F2023%2000%3A00%3A00&TotalPrice=25560&CustomerId=aec18610-0516-4db8-9714-bca3d3d46612&HousingId=3 - - - 200 - text/html;+charset=utf-8 52.2950ms
+2023-10-31 11:04:24.944 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - -
+2023-10-31 11:04:24.945 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - - - 404 0 - 0.7604ms
+2023-10-31 11:04:24.946 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_vs/browserLink - -
+2023-10-31 11:04:24.946 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 11:04:24.946 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.3476ms
+2023-10-31 11:04:24.950 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.4814ms
+2023-10-31 11:04:26.012 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7242/Transaction/ConfirmOrder application/x-www-form-urlencoded 296
+2023-10-31 11:04:26.014 +01:00 [Information] Executing endpoint '"GroupAssignment2.Controllers.TransactionController.ConfirmOrder (GroupAssignment2)"'
+2023-10-31 11:04:26.016 +01:00 [Information] Route matched with "{action = \"ConfirmOrder\", controller = \"Transaction\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConfirmOrder(GroupAssignment2.Models.Transaction, GroupAssignment2.Models.Order)" on controller "GroupAssignment2.Controllers.TransactionController" ("GroupAssignment2").
+2023-10-31 11:04:26.034 +01:00 [Information] Executing action method "GroupAssignment2.Controllers.TransactionController.ConfirmOrder (GroupAssignment2)" - Validation state: Valid
+2023-10-31 11:04:26.039 +01:00 [Error] Failed executing DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?', @p2='?' (Size = 36), @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime), @p6='?' (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Orders\" (\"OrderId\", \"ApplicationUserId\", \"CustomerId\", \"EndDate\", \"HousingId\", \"StartDate\", \"TotalPrice\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);"
+2023-10-31 11:04:26.075 +01:00 [Error] An exception occurred in the database while saving changes for context type '"GroupAssignment2.DAL.HousingDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Orders.OrderId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Orders.OrderId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-31 11:04:26.142 +01:00 [Error] [OrderRepository] Order creation failed for item Order { OrderId: 4, StartDate: 01/01/0001 00:00:00, EndDate: 01/01/0001 00:00:00, TotalPrice: null, CustomerId: "aec18610-0516-4db8-9714-bca3d3d46612", HousingId: 0 }, error message: "An error occurred while saving the entity changes. See the inner exception for details."
+2023-10-31 11:04:26.166 +01:00 [Error] Failed executing DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?', @p2='?' (Size = 36), @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime), @p6='?' (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Orders\" (\"OrderId\", \"ApplicationUserId\", \"CustomerId\", \"EndDate\", \"HousingId\", \"StartDate\", \"TotalPrice\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);"
+2023-10-31 11:04:26.176 +01:00 [Error] An exception occurred in the database while saving changes for context type '"GroupAssignment2.DAL.HousingDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Orders.OrderId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Orders.OrderId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-31 11:04:26.216 +01:00 [Error] [TransactionRepository] Transaction creation failed for item Transaction { TransactionId: 0, Amount: 25560, TransactionDate: "31-10-2023 11:04", CustomerId: "aec18610-0516-4db8-9714-bca3d3d46612", OrderId: 4 }, error message: "An error occurred while saving the entity changes. See the inner exception for details."
+2023-10-31 11:04:26.216 +01:00 [Information] Executed action method "GroupAssignment2.Controllers.TransactionController.ConfirmOrder (GroupAssignment2)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 182.2776ms.
+2023-10-31 11:04:26.216 +01:00 [Information] Executing RedirectResult, redirecting to "/Transaction/OrderComplete?TransactionId=0&Amount=25560&TransactionDate=31-10-2023%2011%3A04&CustomerId=aec18610-0516-4db8-9714-bca3d3d46612&OrderId=4".
+2023-10-31 11:04:26.216 +01:00 [Information] Executed action "GroupAssignment2.Controllers.TransactionController.ConfirmOrder (GroupAssignment2)" in 200.4264ms
+2023-10-31 11:04:26.216 +01:00 [Information] Executed endpoint '"GroupAssignment2.Controllers.TransactionController.ConfirmOrder (GroupAssignment2)"'
+2023-10-31 11:04:26.217 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7242/Transaction/ConfirmOrder application/x-www-form-urlencoded 296 - 302 0 - 204.5568ms
+2023-10-31 11:04:26.219 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/Transaction/OrderComplete?TransactionId=0&Amount=25560&TransactionDate=31-10-2023%2011%3A04&CustomerId=aec18610-0516-4db8-9714-bca3d3d46612&OrderId=4 - -
+2023-10-31 11:04:26.220 +01:00 [Information] Executing endpoint '"GroupAssignment2.Controllers.TransactionController.OrderComplete (GroupAssignment2)"'
+2023-10-31 11:04:26.221 +01:00 [Information] Route matched with "{action = \"OrderComplete\", controller = \"Transaction\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult OrderComplete(GroupAssignment2.Models.Transaction)" on controller "GroupAssignment2.Controllers.TransactionController" ("GroupAssignment2").
+2023-10-31 11:04:26.238 +01:00 [Information] Executing action method "GroupAssignment2.Controllers.TransactionController.OrderComplete (GroupAssignment2)" - Validation state: Valid
+2023-10-31 11:04:26.239 +01:00 [Information] Executed action method "GroupAssignment2.Controllers.TransactionController.OrderComplete (GroupAssignment2)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.2047ms.
+2023-10-31 11:04:26.239 +01:00 [Information] Executing ViewResult, running view "OrderComplete".

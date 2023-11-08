@@ -1,0 +1,130 @@
+2023-11-07 16:19:02.433 +01:00 [Information] User profile is available. Using '"C:\Users\Leon Li\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-07 16:19:03.503 +01:00 [Information] Now listening on: "https://localhost:7242"
+2023-11-07 16:19:03.503 +01:00 [Information] Now listening on: "http://localhost:5249"
+2023-11-07 16:19:03.507 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-11-07 16:19:03.507 +01:00 [Information] Hosting environment: "Development"
+2023-11-07 16:19:03.507 +01:00 [Information] Content root path: "C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\"
+2023-11-07 16:19:04.007 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/ - -
+2023-11-07 16:19:04.088 +01:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2023-11-07 16:19:04.089 +01:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-11-07 16:19:04.090 +01:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2023-11-07 16:19:04.093 +01:00 [Information] "Identity.Application" was not authenticated. Failure message: "No principal."
+2023-11-07 16:19:04.097 +01:00 [Information] Executing endpoint '"GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)"'
+2023-11-07 16:19:04.108 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "GroupAssignment2.Controllers.HomeController" ("GroupAssignment2").
+2023-11-07 16:19:04.206 +01:00 [Information] Executing action method "GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)" - Validation state: Valid
+2023-11-07 16:19:04.223 +01:00 [Information] Executed action method "GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 13.7728ms.
+2023-11-07 16:19:04.229 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-11-07 16:19:04.384 +01:00 [Information] Executed ViewResult - view "Index" executed in 154.9887ms.
+2023-11-07 16:19:04.388 +01:00 [Information] Executed action "GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)" in 279.7563ms
+2023-11-07 16:19:04.389 +01:00 [Information] Executed endpoint '"GroupAssignment2.Controllers.HomeController.Index (GroupAssignment2)"'
+2023-11-07 16:19:04.410 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/bootstrap/js/bootstrap.js - -
+2023-11-07 16:19:04.410 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/css/_Layout.css - -
+2023-11-07 16:19:04.410 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-11-07 16:19:04.410 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - -
+2023-11-07 16:19:04.410 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/images/layout/burgerIcon.png - -
+2023-11-07 16:19:04.410 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/css/index.css - -
+2023-11-07 16:19:04.410 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery/jquery.js - -
+2023-11-07 16:19:04.423 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - - - 404 0 - 3.9542ms
+2023-11-07 16:19:04.450 +01:00 [Information] Sending file. Request path: '"/css/index.css"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\css\index.css"'
+2023-11-07 16:19:04.461 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/css/index.css - - - 200 803 text/css 47.0157ms
+2023-11-07 16:19:04.483 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/ - - - 200 - text/html;+charset=utf-8 473.5676ms
+2023-11-07 16:19:04.496 +01:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\lib\bootstrap\js\bootstrap.js"'
+2023-11-07 16:19:04.496 +01:00 [Information] Sending file. Request path: '"/images/layout/burgerIcon.png"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\images\layout\burgerIcon.png"'
+2023-11-07 16:19:04.496 +01:00 [Information] Sending file. Request path: '"/css/_Layout.css"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\css\_Layout.css"'
+2023-11-07 16:19:04.497 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/images/layout/burgerIcon.png - - - 200 1664 image/png 86.5974ms
+2023-11-07 16:19:04.502 +01:00 [Information] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"'
+2023-11-07 16:19:04.503 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/bootstrap/js/bootstrap.js - - - 200 145313 application/javascript 93.1495ms
+2023-11-07 16:19:04.503 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19820 application/javascript 93.4472ms
+2023-11-07 16:19:04.503 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/css/_Layout.css - - - 200 410 text/css 93.7068ms
+2023-11-07 16:19:04.507 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/css/_Button.css - -
+2023-11-07 16:19:04.507 +01:00 [Information] Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\lib\jquery\jquery.js"'
+2023-11-07 16:19:04.507 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery/jquery.js - - - 200 285314 application/javascript 97.7225ms
+2023-11-07 16:19:04.508 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-11-07 16:19:04.511 +01:00 [Information] Sending file. Request path: '"/css/_Button.css"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\css\_Button.css"'
+2023-11-07 16:19:04.511 +01:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\js\site.js"'
+2023-11-07 16:19:04.512 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 4.1832ms
+2023-11-07 16:19:04.512 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/css/_Button.css - - - 200 2319 text/css 5.6734ms
+2023-11-07 16:19:04.516 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - -
+2023-11-07 16:19:04.517 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_vs/browserLink - -
+2023-11-07 16:19:04.519 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 3.0430ms
+2023-11-07 16:19:04.521 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/images/home/jumbotron.jpg - -
+2023-11-07 16:19:04.529 +01:00 [Information] Sending file. Request path: '"/images/home/jumbotron.jpg"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\images\home\jumbotron.jpg"'
+2023-11-07 16:19:04.530 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/images/home/jumbotron.jpg - - - 200 282612 image/jpeg 8.5786ms
+2023-11-07 16:19:04.534 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.8628ms
+2023-11-07 16:19:05.585 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/Housing/Table - -
+2023-11-07 16:19:05.590 +01:00 [Information] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)"
+2023-11-07 16:19:05.595 +01:00 [Information] AuthenticationScheme: "Identity.Application" was challenged.
+2023-11-07 16:19:05.595 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/Housing/Table - - - 302 0 - 9.7493ms
+2023-11-07 16:19:05.597 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/Identity/Account/Login?ReturnUrl=%2FHousing%2FTable - -
+2023-11-07 16:19:05.598 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-07 16:19:05.610 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-07 16:19:05.624 +01:00 [Information] Executing handler method "GroupAssignment2.Areas.Identity.Pages.Account.LoginModel.OnGetAsync" - ModelState is Valid
+2023-11-07 16:19:05.625 +01:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-11-07 16:19:05.626 +01:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-11-07 16:19:05.628 +01:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-11-07 16:19:05.628 +01:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-07 16:19:05.668 +01:00 [Information] Executed page "/Account/Login" in 58.2209ms
+2023-11-07 16:19:05.668 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-07 16:19:05.670 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/Identity/Account/Login?ReturnUrl=%2FHousing%2FTable - - - 200 - text/html;+charset=utf-8 72.9632ms
+2023-11-07 16:19:05.672 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - -
+2023-11-07 16:19:05.673 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/Identity/lib/jquery-validation/dist/jquery.validate.js - -
+2023-11-07 16:19:05.673 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-11-07 16:19:05.673 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - - - 404 0 - 1.1948ms
+2023-11-07 16:19:05.676 +01:00 [Information] Sending file. Request path: '"/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"C:\Users\Leon Li\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.6\staticwebassets\V5\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"'
+2023-11-07 16:19:05.676 +01:00 [Information] Sending file. Request path: '"/Identity/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"C:\Users\Leon Li\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.6\staticwebassets\V5\lib\jquery-validation\dist\jquery.validate.js"'
+2023-11-07 16:19:05.677 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19366 application/javascript 3.5293ms
+2023-11-07 16:19:05.677 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/Identity/lib/jquery-validation/dist/jquery.validate.js - - - 200 48676 application/javascript 4.0335ms
+2023-11-07 16:19:05.682 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_vs/browserLink - -
+2023-11-07 16:19:05.682 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - -
+2023-11-07 16:19:05.682 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.6592ms
+2023-11-07 16:19:05.691 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.5757ms
+2023-11-07 16:19:24.165 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7242/Identity/Account/Login?ReturnUrl=%2FHousing%2FTable application/x-www-form-urlencoded 259
+2023-11-07 16:19:24.174 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-07 16:19:24.174 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-07 16:19:24.192 +01:00 [Information] Executing handler method "GroupAssignment2.Areas.Identity.Pages.Account.LoginModel.OnPostAsync" - ModelState is Valid
+2023-11-07 16:19:24.202 +01:00 [Warning] Invalid password for user.
+2023-11-07 16:19:24.202 +01:00 [Warning] User failed to provide the correct password.
+2023-11-07 16:19:24.203 +01:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-07 16:19:24.215 +01:00 [Information] Executed page "/Account/Login" in 40.8261ms
+2023-11-07 16:19:24.215 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-07 16:19:24.221 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7242/Identity/Account/Login?ReturnUrl=%2FHousing%2FTable application/x-www-form-urlencoded 259 - 200 - text/html;+charset=utf-8 55.0624ms
+2023-11-07 16:19:24.224 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - -
+2023-11-07 16:19:24.224 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_vs/browserLink - -
+2023-11-07 16:19:24.224 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - -
+2023-11-07 16:19:24.224 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.4143ms
+2023-11-07 16:19:24.224 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - - - 404 0 - 0.9420ms
+2023-11-07 16:19:24.228 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.9220ms
+2023-11-07 16:19:28.962 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7242/Identity/Account/Login?ReturnUrl=%2FHousing%2FTable application/x-www-form-urlencoded 262
+2023-11-07 16:19:28.963 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-07 16:19:28.963 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-07 16:19:28.964 +01:00 [Information] Executing handler method "GroupAssignment2.Areas.Identity.Pages.Account.LoginModel.OnPostAsync" - ModelState is Valid
+2023-11-07 16:19:29.046 +01:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2023-11-07 16:19:29.046 +01:00 [Information] User logged in.
+2023-11-07 16:19:29.046 +01:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.LocalRedirectResult".
+2023-11-07 16:19:29.047 +01:00 [Information] Executing LocalRedirectResult, redirecting to "/Housing/Table".
+2023-11-07 16:19:29.047 +01:00 [Information] Executed page "/Account/Login" in 83.4878ms
+2023-11-07 16:19:29.047 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-07 16:19:29.047 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7242/Identity/Account/Login?ReturnUrl=%2FHousing%2FTable application/x-www-form-urlencoded 262 - 302 0 - 84.8977ms
+2023-11-07 16:19:29.049 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/Housing/Table - -
+2023-11-07 16:19:29.051 +01:00 [Information] Executing endpoint '"GroupAssignment2.Controllers.HousingController.Table (GroupAssignment2)"'
+2023-11-07 16:19:29.053 +01:00 [Information] Route matched with "{action = \"Table\", controller = \"Housing\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table()" on controller "GroupAssignment2.Controllers.HousingController" ("GroupAssignment2").
+2023-11-07 16:19:29.073 +01:00 [Information] Executing action method "GroupAssignment2.Controllers.HousingController.Table (GroupAssignment2)" - Validation state: Valid
+2023-11-07 16:19:29.074 +01:00 [Information] Executed action method "GroupAssignment2.Controllers.HousingController.Table (GroupAssignment2)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.9862ms.
+2023-11-07 16:19:29.074 +01:00 [Information] Executing ViewResult, running view "Table".
+2023-11-07 16:19:29.086 +01:00 [Information] Executed ViewResult - view "Table" executed in 12.2105ms.
+2023-11-07 16:19:29.086 +01:00 [Information] Executed action "GroupAssignment2.Controllers.HousingController.Table (GroupAssignment2)" in 33.563ms
+2023-11-07 16:19:29.086 +01:00 [Information] Executed endpoint '"GroupAssignment2.Controllers.HousingController.Table (GroupAssignment2)"'
+2023-11-07 16:19:29.090 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/Housing/Table - - - 200 - text/html;+charset=utf-8 40.9486ms
+2023-11-07 16:19:29.095 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - -
+2023-11-07 16:19:29.096 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/css/table.css - -
+2023-11-07 16:19:29.096 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/images/housing/Grid_Table.jpg - -
+2023-11-07 16:19:29.097 +01:00 [Information] Sending file. Request path: '"/css/table.css"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\css\table.css"'
+2023-11-07 16:19:29.097 +01:00 [Information] Sending file. Request path: '"/images/housing/Grid_Table.jpg"'. Physical path: '"C:\Users\Leon Li\source\repos\LeonTLam\GroupAssignment2\GroupAssignment2\wwwroot\images\housing\Grid_Table.jpg"'
+2023-11-07 16:19:29.097 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/css/table.css - - - 200 830 text/css 1.3432ms
+2023-11-07 16:19:29.097 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/lib/jquery-validate/jquery.validate.js - - - 404 0 - 2.0416ms
+2023-11-07 16:19:29.098 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/images/housing/Grid_Table.jpg - - - 200 11704 image/jpeg 1.8588ms
+2023-11-07 16:19:29.099 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - -
+2023-11-07 16:19:29.099 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7242/_vs/browserLink - -
+2023-11-07 16:19:29.099 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.5838ms
+2023-11-07 16:19:29.107 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.3227ms

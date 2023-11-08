@@ -1,0 +1,37 @@
+﻿body {
+}
+
+.navbar {
+    background-color: #2E4A56;
+}
+
+.navbar a, .navbar button{
+    color: white !important;
+}
+
+#toggler{
+    height:40px;
+}
+
+.navbar-brand, .nav-item {
+    margin-left: 50px;
+}
+
+.navbar-toggler {
+    margin-right: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+}
+
+.nav-footer {
+    color:white;
+}
+
+.nav-footer:hover {
+    color: #BADFE7;
+}
+
+

@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Housing Table";
+}
+@model HousingListViewModel
+
+
+<link rel="stylesheet" href="/css/table.css" type="text/css" />
+<link rel="stylesheet" href="/css/_Button.css" type="text/css" />
+
+<div class="text-center" style="padding-top:5vw;">
+    <h1>List of homes for rent (@Model.CurrentViewName View)</h1>
+    <a href="/Housing/Grid">Grid View<br /><img src="~/images/housing/Grid_Table.jpg" href="/Housing/Grid" style="width:125px;height:65px;" /></a>
+</div>
+
+<partial name="_HousingTable" model="Model.Housings" />
+
+<!--<a class="btn btn-primary" asp-action="OrderConsole">Console Output</a>-->
