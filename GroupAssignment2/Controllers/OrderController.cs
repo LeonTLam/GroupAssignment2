@@ -13,14 +13,13 @@ namespace GroupAssignment2.Controllers
 {
     public class OrderController : Controller
     {
-        private readonly HousingDbContext _orderDbContext;
+        
         private readonly IOrderRepository _orderRepository;
         private readonly ILogger<OrderController> _logger;
         private readonly UserManager<ApplicationUser> _userManager;
 
-        public OrderController(HousingDbContext orderDbContext,UserManager<ApplicationUser> userManager, IOrderRepository orderRepository, ILogger<OrderController> logger)
+        public OrderController(UserManager<ApplicationUser> userManager, IOrderRepository orderRepository, ILogger<OrderController> logger)
         {
-            _orderDbContext = orderDbContext;
             _orderRepository = orderRepository;
             _logger = logger;
             _userManager = userManager;

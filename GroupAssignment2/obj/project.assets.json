@@ -12431,19 +12431,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Leon Li\\.nuget\\packages\\": {}
+    "C:\\Users\\Leon Lam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leon Li\\source\\repos\\LeonTLam\\GroupAssignment2\\GroupAssignment2\\GroupAssignment2.csproj",
+      "projectUniqueName": "C:\\Users\\Leon Lam\\Source\\Repos\\LeonTLam\\GroupAssignment2\\GroupAssignment2\\GroupAssignment2.csproj",
       "projectName": "GroupAssignment2",
-      "projectPath": "C:\\Users\\Leon Li\\source\\repos\\LeonTLam\\GroupAssignment2\\GroupAssignment2\\GroupAssignment2.csproj",
-      "packagesPath": "C:\\Users\\Leon Li\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leon Li\\source\\repos\\LeonTLam\\GroupAssignment2\\GroupAssignment2\\obj\\",
+      "projectPath": "C:\\Users\\Leon Lam\\Source\\Repos\\LeonTLam\\GroupAssignment2\\GroupAssignment2\\GroupAssignment2.csproj",
+      "packagesPath": "C:\\Users\\Leon Lam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Leon Lam\\Source\\Repos\\LeonTLam\\GroupAssignment2\\GroupAssignment2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Leon Li\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Leon Lam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12533,7 +12533,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
